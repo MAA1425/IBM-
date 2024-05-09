@@ -13,23 +13,3 @@ Python 3.x
 OpenAI GPT API key
 Whisper SDK
 Microphone and speaker setup
-Installation
-Clone this repository to your local machine.
-bash
-Copy code
-git clone https://github.com/username/voice-assistant.git
-Install dependencies.
-Copy code
-pip install -r requirements.txt
-Obtain an API key for OpenAI GPT and update the configuration file with your credentials.
-Install Whisper SDK and configure it for local processing of user data.
-Usage
-Run the voice assistant application.
-Copy code
-python voice_assistant.py
-The assistant will start listening for user commands. Speak clearly and naturally to interact with the assistant.
-The assistant will process the command, generate a response using GPT, and provide the output through the speaker.
-Customization
-Adding Skills: Extend the functionality of the assistant by adding new skills/modules tailored to specific tasks or domains.
-Training GPT: Fine-tune the GPT model on specific datasets to improve its understanding and generate more relevant responses.
-User Preferences: Implement mechanisms to capture and incorporate user preferences for personalized interactions.
